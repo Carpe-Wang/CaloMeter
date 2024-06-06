@@ -27,6 +27,9 @@
 		C3463C642C11B45900D9F5B2 /* CaloMete_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3463C632C11B45900D9F5B2 /* CaloMete_WatchKit_AppTests.swift */; };
 		C3463C6E2C11B45900D9F5B2 /* CaloMete_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3463C6D2C11B45900D9F5B2 /* CaloMete_WatchKit_AppUITests.swift */; };
 		C3463C702C11B45900D9F5B2 /* CaloMete_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3463C6F2C11B45900D9F5B2 /* CaloMete_WatchKit_AppUITestsLaunchTests.swift */; };
+		C3463C8D2C11B5C900D9F5B2 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3463C8C2C11B5C900D9F5B2 /* HealthKit.framework */; };
+		C3463C8F2C11B5D500D9F5B2 /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3463C8E2C11B5D500D9F5B2 /* HomeKit.framework */; };
+		C3463C912C11B6A300D9F5B2 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3463C902C11B6A300D9F5B2 /* HealthKitManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +130,11 @@
 		C3463C692C11B45900D9F5B2 /* CaloMete WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CaloMete WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3463C6D2C11B45900D9F5B2 /* CaloMete_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloMete_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
 		C3463C6F2C11B45900D9F5B2 /* CaloMete_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloMete_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C3463C8A2C11B5C900D9F5B2 /* CaloMete.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CaloMete.entitlements; sourceTree = "<group>"; };
+		C3463C8C2C11B5C900D9F5B2 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		C3463C8E2C11B5D500D9F5B2 /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/System/Library/Frameworks/HomeKit.framework; sourceTree = DEVELOPER_DIR; };
+		C3463C902C11B6A300D9F5B2 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		C3463C922C11BAC000D9F5B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +142,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3463C8F2C11B5D500D9F5B2 /* HomeKit.framework in Frameworks */,
+				C3463C8D2C11B5C900D9F5B2 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +196,7 @@
 				C3463C622C11B45900D9F5B2 /* CaloMete WatchKit AppTests */,
 				C3463C6C2C11B45900D9F5B2 /* CaloMete WatchKit AppUITests */,
 				C3463C172C11B45100D9F5B2 /* Products */,
+				C3463C8B2C11B5C900D9F5B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -206,10 +217,13 @@
 		C3463C182C11B45100D9F5B2 /* CaloMete */ = {
 			isa = PBXGroup;
 			children = (
+				C3463C922C11BAC000D9F5B2 /* Info.plist */,
+				C3463C8A2C11B5C900D9F5B2 /* CaloMete.entitlements */,
 				C3463C192C11B45100D9F5B2 /* CaloMeteApp.swift */,
 				C3463C1B2C11B45100D9F5B2 /* ContentView.swift */,
 				C3463C1D2C11B45400D9F5B2 /* Assets.xcassets */,
 				C3463C1F2C11B45400D9F5B2 /* Preview Content */,
+				C3463C902C11B6A300D9F5B2 /* HealthKitManager.swift */,
 			);
 			path = CaloMete;
 			sourceTree = "<group>";
@@ -286,6 +300,15 @@
 				C3463C6F2C11B45900D9F5B2 /* CaloMete_WatchKit_AppUITestsLaunchTests.swift */,
 			);
 			path = "CaloMete WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+		C3463C8B2C11B5C900D9F5B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3463C8E2C11B5D500D9F5B2 /* HomeKit.framework */,
+				C3463C8C2C11B5C900D9F5B2 /* HealthKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -541,6 +564,7 @@
 			files = (
 				C3463C1C2C11B45100D9F5B2 /* ContentView.swift in Sources */,
 				C3463C1A2C11B45100D9F5B2 /* CaloMeteApp.swift in Sources */,
+				C3463C912C11B6A300D9F5B2 /* HealthKitManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -677,6 +701,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -730,6 +755,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -856,11 +882,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CaloMete/CaloMete.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CaloMete/Preview Content\"";
+				DEVELOPMENT_TEAM = TZW25H2Z6M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CaloMete/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "我们需要访问您的健康数据来计算每日热量消耗。";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "我们需要更新您的健康数据来计算每日热量消耗。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -886,11 +917,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CaloMete/CaloMete.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CaloMete/Preview Content\"";
+				DEVELOPMENT_TEAM = TZW25H2Z6M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CaloMete/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "我们需要访问您的健康数据来计算每日热量消耗。";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "我们需要更新您的健康数据来计算每日热量消耗。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
