@@ -16,7 +16,6 @@
 		C3463C372C11B45400D9F5B2 /* CaloMeteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3463C362C11B45400D9F5B2 /* CaloMeteUITestsLaunchTests.swift */; };
 		C3463C3B2C11B45500D9F5B2 /* CaloMete WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C3463C3A2C11B45500D9F5B2 /* CaloMete WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C3463C402C11B45700D9F5B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3463C3F2C11B45700D9F5B2 /* Assets.xcassets */; };
-		C3463C462C11B45700D9F5B2 /* CaloMete WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C3463C452C11B45700D9F5B2 /* CaloMete WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C3463C4B2C11B45700D9F5B2 /* CaloMeteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3463C4A2C11B45700D9F5B2 /* CaloMeteApp.swift */; };
 		C3463C4D2C11B45700D9F5B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3463C4C2C11B45700D9F5B2 /* ContentView.swift */; };
 		C3463C4F2C11B45700D9F5B2 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3463C4E2C11B45700D9F5B2 /* NotificationController.swift */; };
@@ -33,6 +32,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		C33D240F2CFBD9A6002B8CF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3463C0E2C11B45000D9F5B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3463C392C11B45400D9F5B2;
+			remoteInfo = "CaloMete WatchKit App";
+		};
 		C3463C272C11B45400D9F5B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C3463C0E2C11B45000D9F5B2 /* Project object */;
@@ -54,20 +60,6 @@
 			remoteGlobalIDString = C3463C392C11B45400D9F5B2;
 			remoteInfo = "CaloMete WatchKit App";
 		};
-		C3463C472C11B45700D9F5B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C3463C0E2C11B45000D9F5B2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C3463C442C11B45700D9F5B2;
-			remoteInfo = "CaloMete WatchKit Extension";
-		};
-		C3463C602C11B45900D9F5B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C3463C0E2C11B45000D9F5B2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C3463C442C11B45700D9F5B2;
-			remoteInfo = "CaloMete WatchKit Extension";
-		};
 		C3463C6A2C11B45900D9F5B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C3463C0E2C11B45000D9F5B2 /* Project object */;
@@ -78,17 +70,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C3463C762C11B45900D9F5B2 /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				C3463C462C11B45700D9F5B2 /* CaloMete WatchKit Extension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C3463C7A2C11B45900D9F5B2 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -115,7 +96,6 @@
 		C3463C362C11B45400D9F5B2 /* CaloMeteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloMeteUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C3463C3A2C11B45500D9F5B2 /* CaloMete WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CaloMete WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3463C3F2C11B45700D9F5B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C3463C452C11B45700D9F5B2 /* CaloMete WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CaloMete WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3463C4A2C11B45700D9F5B2 /* CaloMeteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloMeteApp.swift; sourceTree = "<group>"; };
 		C3463C4C2C11B45700D9F5B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C3463C4E2C11B45700D9F5B2 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
@@ -135,6 +115,7 @@
 		C3463C8E2C11B5D500D9F5B2 /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/System/Library/Frameworks/HomeKit.framework; sourceTree = DEVELOPER_DIR; };
 		C3463C902C11B6A300D9F5B2 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
 		C3463C922C11BAC000D9F5B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C37C5D192D7E540E00B101E2 /* UserProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,7 +188,6 @@
 				C3463C262C11B45400D9F5B2 /* CaloMeteTests.xctest */,
 				C3463C302C11B45400D9F5B2 /* CaloMeteUITests.xctest */,
 				C3463C3A2C11B45500D9F5B2 /* CaloMete WatchKit App.app */,
-				C3463C452C11B45700D9F5B2 /* CaloMete WatchKit Extension.appex */,
 				C3463C5F2C11B45900D9F5B2 /* CaloMete WatchKit AppTests.xctest */,
 				C3463C692C11B45900D9F5B2 /* CaloMete WatchKit AppUITests.xctest */,
 			);
@@ -224,6 +204,7 @@
 				C3463C1D2C11B45400D9F5B2 /* Assets.xcassets */,
 				C3463C1F2C11B45400D9F5B2 /* Preview Content */,
 				C3463C902C11B6A300D9F5B2 /* HealthKitManager.swift */,
+				C37C5D192D7E540E00B101E2 /* UserProfileManager.swift */,
 			);
 			path = CaloMete;
 			sourceTree = "<group>";
@@ -374,34 +355,17 @@
 			buildConfigurationList = C3463C772C11B45900D9F5B2 /* Build configuration list for PBXNativeTarget "CaloMete WatchKit App" */;
 			buildPhases = (
 				C3463C382C11B45400D9F5B2 /* Resources */,
-				C3463C762C11B45900D9F5B2 /* Embed App Extensions */,
+				C3463C412C11B45700D9F5B2 /* Sources */,
+				C3463C422C11B45700D9F5B2 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C3463C482C11B45700D9F5B2 /* PBXTargetDependency */,
 			);
 			name = "CaloMete WatchKit App";
 			productName = "CaloMete WatchKit App";
 			productReference = C3463C3A2C11B45500D9F5B2 /* CaloMete WatchKit App.app */;
-			productType = "com.apple.product-type.application.watchapp2";
-		};
-		C3463C442C11B45700D9F5B2 /* CaloMete WatchKit Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C3463C732C11B45900D9F5B2 /* Build configuration list for PBXNativeTarget "CaloMete WatchKit Extension" */;
-			buildPhases = (
-				C3463C412C11B45700D9F5B2 /* Sources */,
-				C3463C422C11B45700D9F5B2 /* Frameworks */,
-				C3463C432C11B45700D9F5B2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "CaloMete WatchKit Extension";
-			productName = "CaloMete WatchKit Extension";
-			productReference = C3463C452C11B45700D9F5B2 /* CaloMete WatchKit Extension.appex */;
-			productType = "com.apple.product-type.watchkit2-extension";
+			productType = "com.apple.product-type.application";
 		};
 		C3463C5E2C11B45900D9F5B2 /* CaloMete WatchKit AppTests */ = {
 			isa = PBXNativeTarget;
@@ -414,7 +378,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C3463C612C11B45900D9F5B2 /* PBXTargetDependency */,
+				C33D24102CFBD9A6002B8CF8 /* PBXTargetDependency */,
 			);
 			name = "CaloMete WatchKit AppTests";
 			productName = "CaloMete WatchKit AppTests";
@@ -447,7 +411,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1610;
 				TargetAttributes = {
 					C3463C152C11B45100D9F5B2 = {
 						CreatedOnToolsVersion = 13.0;
@@ -463,12 +427,9 @@
 					C3463C392C11B45400D9F5B2 = {
 						CreatedOnToolsVersion = 13.0;
 					};
-					C3463C442C11B45700D9F5B2 = {
-						CreatedOnToolsVersion = 13.0;
-					};
 					C3463C5E2C11B45900D9F5B2 = {
 						CreatedOnToolsVersion = 13.0;
-						TestTargetID = C3463C442C11B45700D9F5B2;
+						TestTargetID = C3463C392C11B45400D9F5B2;
 					};
 					C3463C682C11B45900D9F5B2 = {
 						CreatedOnToolsVersion = 13.0;
@@ -493,7 +454,6 @@
 				C3463C252C11B45400D9F5B2 /* CaloMeteTests */,
 				C3463C2F2C11B45400D9F5B2 /* CaloMeteUITests */,
 				C3463C392C11B45400D9F5B2 /* CaloMete WatchKit App */,
-				C3463C442C11B45700D9F5B2 /* CaloMete WatchKit Extension */,
 				C3463C5E2C11B45900D9F5B2 /* CaloMete WatchKit AppTests */,
 				C3463C682C11B45900D9F5B2 /* CaloMete WatchKit AppUITests */,
 			);
@@ -528,16 +488,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3463C402C11B45700D9F5B2 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3463C432C11B45700D9F5B2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 				C3463C582C11B45900D9F5B2 /* Preview Assets.xcassets in Resources */,
 				C3463C552C11B45900D9F5B2 /* Assets.xcassets in Resources */,
+				C3463C402C11B45700D9F5B2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,6 +570,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		C33D24102CFBD9A6002B8CF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3463C392C11B45400D9F5B2 /* CaloMete WatchKit App */;
+			targetProxy = C33D240F2CFBD9A6002B8CF8 /* PBXContainerItemProxy */;
+		};
 		C3463C282C11B45400D9F5B2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C3463C152C11B45100D9F5B2 /* CaloMete */;
@@ -631,16 +589,6 @@
 			isa = PBXTargetDependency;
 			target = C3463C392C11B45400D9F5B2 /* CaloMete WatchKit App */;
 			targetProxy = C3463C3C2C11B45500D9F5B2 /* PBXContainerItemProxy */;
-		};
-		C3463C482C11B45700D9F5B2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C3463C442C11B45700D9F5B2 /* CaloMete WatchKit Extension */;
-			targetProxy = C3463C472C11B45700D9F5B2 /* PBXContainerItemProxy */;
-		};
-		C3463C612C11B45900D9F5B2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C3463C442C11B45700D9F5B2 /* CaloMete WatchKit Extension */;
-			targetProxy = C3463C602C11B45900D9F5B2 /* PBXContainerItemProxy */;
 		};
 		C3463C6B2C11B45900D9F5B2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -684,9 +632,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -744,9 +694,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -763,82 +715,25 @@
 			};
 			name = Release;
 		};
-		C3463C742C11B45900D9F5B2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CaloMete WatchKit Extension/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "CaloMete WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "CaloMete WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.carpewang.CaloMete.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
-			};
-			name = Debug;
-		};
-		C3463C752C11B45900D9F5B2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CaloMete WatchKit Extension/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "CaloMete WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "CaloMete WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.carpewang.CaloMete.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
-			};
-			name = Release;
-		};
 		C3463C782C11B45900D9F5B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IBSC_MODULE = CaloMete_WatchKit_Extension;
 				INFOPLIST_KEY_CFBundleDisplayName = "CaloMete WatchKit App";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.carpewang.CaloMete;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.carpewang.CaloMete.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -854,16 +749,22 @@
 		C3463C792C11B45900D9F5B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IBSC_MODULE = CaloMete_WatchKit_Extension;
 				INFOPLIST_KEY_CFBundleDisplayName = "CaloMete WatchKit App";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.carpewang.CaloMete;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.carpewang.CaloMete.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -951,7 +852,6 @@
 		C3463C7F2C11B45900D9F5B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -976,7 +876,6 @@
 		C3463C802C11B45900D9F5B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1002,7 +901,6 @@
 		C3463C822C11B45900D9F5B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -1026,7 +924,6 @@
 		C3463C832C11B45900D9F5B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -1051,7 +948,6 @@
 		C3463C852C11B45900D9F5B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1068,7 +964,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaloMete WatchKit Extension.appex/CaloMete WatchKit Extension";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaloMete WatchKit App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CaloMete WatchKit App";
 				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Debug;
@@ -1076,7 +972,6 @@
 		C3463C862C11B45900D9F5B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1093,7 +988,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaloMete WatchKit Extension.appex/CaloMete WatchKit Extension";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaloMete WatchKit App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CaloMete WatchKit App";
 				VALIDATE_PRODUCT = YES;
 				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
@@ -1154,15 +1049,6 @@
 			buildConfigurations = (
 				C3463C712C11B45900D9F5B2 /* Debug */,
 				C3463C722C11B45900D9F5B2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C3463C732C11B45900D9F5B2 /* Build configuration list for PBXNativeTarget "CaloMete WatchKit Extension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C3463C742C11B45900D9F5B2 /* Debug */,
-				C3463C752C11B45900D9F5B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
