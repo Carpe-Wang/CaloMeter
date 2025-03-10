@@ -12,5 +12,13 @@
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.watchkit</string>
 	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+	<key>NSHealthShareUsageDescription</key>
+	<string>We need access to your health data to provide personalized nutrition and workout recommendations based on your calorie expenditure, weight, and other fitness metrics.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>We need permission to update health data for tracking your meals and workouts.</string>
 </dict>
 </plist>

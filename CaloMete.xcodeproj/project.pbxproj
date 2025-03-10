@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C302CAE52D7E5F9400A13EF0 /* UserProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37C5D192D7E540E00B101E2 /* UserProfileManager.swift */; };
+		C302CAE62D7E62C900A13EF0 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3463C902C11B6A300D9F5B2 /* HealthKitManager.swift */; };
+		C302CAE72D7E62CE00A13EF0 /* UserProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37C5D192D7E540E00B101E2 /* UserProfileManager.swift */; };
 		C3463C1A2C11B45100D9F5B2 /* CaloMeteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3463C192C11B45100D9F5B2 /* CaloMeteApp.swift */; };
 		C3463C1C2C11B45100D9F5B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3463C1B2C11B45100D9F5B2 /* ContentView.swift */; };
 		C3463C1E2C11B45400D9F5B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3463C1D2C11B45400D9F5B2 /* Assets.xcassets */; };
@@ -517,6 +520,7 @@
 			files = (
 				C3463C1C2C11B45100D9F5B2 /* ContentView.swift in Sources */,
 				C3463C1A2C11B45100D9F5B2 /* CaloMeteApp.swift in Sources */,
+				C302CAE52D7E5F9400A13EF0 /* UserProfileManager.swift in Sources */,
 				C3463C912C11B6A300D9F5B2 /* HealthKitManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -544,8 +548,10 @@
 			files = (
 				C3463C4F2C11B45700D9F5B2 /* NotificationController.swift in Sources */,
 				C3463C4D2C11B45700D9F5B2 /* ContentView.swift in Sources */,
+				C302CAE62D7E62C900A13EF0 /* HealthKitManager.swift in Sources */,
 				C3463C532C11B45700D9F5B2 /* ComplicationController.swift in Sources */,
 				C3463C4B2C11B45700D9F5B2 /* CaloMeteApp.swift in Sources */,
+				C302CAE72D7E62CE00A13EF0 /* UserProfileManager.swift in Sources */,
 				C3463C512C11B45700D9F5B2 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
